@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  max-width: 1000px;
+  margin: auto;
+  border-left: 5px solid lightgrey;
+  padding: 2rem;
+}
+
+h1 {
+  color: tomato;
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 0;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+nav > ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  color: grey;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+footer a {
+  color: tomato;
+  text-decoration: none;
+}
+
+footer {
+  color: grey;
+}
+
+article > h2 {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+article {
+  margin-bottom: 3rem;
+}
+
+.ReadMore > a {
+  color: tomato;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ReadMore {
+  text-align: right;
+}
+
+article p::first-letter {
+  font-size: 5rem;
+  color: grey;
+  padding: 1rem 1rem 0rem 1rem;
+  float: left;
+}
+
+p {
+  line-height: 1.7;
+  color: grey;
+  font-size: 20px;
+}
+
+hr {
+  color: lightgrey;
+  margin-top: 2rem;
+}
+
+time {
+  color: grey;
+  font-size: 24px;
+}
+
+a:link,
+a:visited {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
